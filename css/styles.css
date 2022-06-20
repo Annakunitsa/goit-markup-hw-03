@@ -141,11 +141,16 @@ body {
 /*-------------------main------------------*/
 /*------------------HERO------------------*/
 .hero {
-  padding: 200px 452px 200px 452px;
+  padding: 200px 0px;
+  margin: 0 auto;
   background-color: #2f303a;
+
+  background-position: center;
+  min-width: 1600px;
 }
 
 .hero-title {
+  margin: 0 auto;
   margin-bottom: 30px;
   max-width: 700px;
   color: var(--main-white-color);
@@ -301,7 +306,7 @@ body {
   border-bottom: 1px solid #ececec;
 }*/
 
-.portfolio-title {
+.portfolio-title-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -316,6 +321,11 @@ body {
   position: absolute;
 }
 
+.button {
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
 .main-portfolio {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -324,7 +334,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-btn:not(:first-child) {
@@ -436,7 +446,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-email-link {
+.footer-email-list {
   margin-top: 9px;
   margin-bottom: 9px;
 }
